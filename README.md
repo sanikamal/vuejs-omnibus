@@ -22,3 +22,40 @@ A great deal of flexibility is another advantage of Vue.js. It allows the user t
 
 ### 6. Two-Way Communication
 Vue.js also facilitates two way communications because of its MVVM architecture which makes it quite easy to handle HTML blocks. 
+
+## Features available with VueJS.
+### 1. Virtual DOM
+VueJS makes the use of virtual DOM. The changes are not made to the DOM, instead a replica of the DOM is created which is present in the form of JavaScript data structures. Whenever any changes are to be made, they are made to the JavaScript data structures and the latter is compared with the original data structure. The final changes are then updated to the real DOM, which the user will see changing.
+
+### 2. Data Binding
+The data binding feature helps manipulate or assign values to HTML attributes, change the style, assign classes with the help of binding directive called `v-bind` available with VueJS.
+
+### 3.Components
+Components are one of the important features of VueJS that helps create custom elements, which can be reused in HTML.
+
+### 4. Event Handling
+v-on is the attribute added to the DOM elements to listen to the events in VueJS.
+
+### 5.Animation/Transition
+VueJS provides various ways to apply transition to HTML elements when they are added/updated or removed from the DOM. VueJS has a built-in transition component that needs to be wrapped around the element for transition effect. 
+
+### 6. Computed Properties
+This is one of the important features of VueJS. It helps to listen to the changes made to the UI elements and performs the necessary calculations.
+
+### 7. Templates
+VueJS provides HTML-based templates that bind the DOM with the Vue instance data. Vue compiles the templates into virtual DOM Render functions. We can make use of the template of the render functions and to do so we have to replace the template with the render function.
+
+### 8. Directives
+VueJS has built-in directives such as `v-if`, `v-else`, `v-show`, `v-on`, `v-bind`, and `v-model`, which are used to perform various actions on the frontend.
+
+### 9. Watchers
+Watchers are applied to data that changes.Watcher takes care of handling any data changes making the code simple and fast.
+
+### 10. Routing
+Navigation between pages is performed with the help of vue-router.
+
+### 11. Lightweight
+VueJS script is very lightweight and the performance is also very fast.
+
+### 12. Vue-CLI
+VueJS can be installed at the command line using the vue-cli command line interface. It helps to build and compile the project easily using vue-cli.
