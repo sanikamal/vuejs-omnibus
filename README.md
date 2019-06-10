@@ -59,3 +59,6 @@ VueJS script is very lightweight and the performance is also very fast.
 
 ### 12. Vue-CLI
 VueJS can be installed at the command line using the vue-cli command line interface. It helps to build and compile the project easily using vue-cli.
+
+## Contents
+### 1. [Live Search using Vue.js with PHP](live-search-vuejs-php)
